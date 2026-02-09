@@ -1,0 +1,16 @@
+{
+  "name": "titopati-scripts",
+  "version": "0.1.0",
+  "scripts": {
+    "register": "ts-node register-agents.ts",
+    "demo": "ts-node demo.ts"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.1",
+    "@solana/web3.js": "^1.95.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
